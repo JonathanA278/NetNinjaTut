@@ -8,23 +8,17 @@
 //     console.log('it is night time.')
 // }
 
-const grade = '50';
+const age = 30;
 
+if(true){
+    const age = 40;
+    const name = 'Shaun';
+    console.log('inside 1st code block: ', age, name);
 
-switch(grade){
-    case 50:
-        console.log('you got an A!');
-        break;
-    case 'B':
-        console.log('you got an B!');
-        break;
-    case "C":
-        console.log('you got an C!');
-        break;
-    case "D":
-        console.log('you got an D!');
-        break;
-    case 'E':
-        console.log('you got an E!');
-
+if(true){
+    const age = 50;
+    console.log('inside 2nd code block: ', age);
+    }
 }
+
+console.log('outside code block: ', age, name);
